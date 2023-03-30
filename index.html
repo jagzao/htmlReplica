@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sutera replica</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <header>
+    <div class="image-container">
+      <div class="sutera_div">
+        <img src="/img/sutera.png" class="sutera_image" alt="">
+      </div>
+      <div class="sutera_data">
+        <img src="/img/ssl.png" class="ssl_image" alt="">
+        <img src="/img/flag.png" class="flag_image" alt="">
+        <img src="/img/contact.jpeg" class="contact_image" alt="">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="square">
+      
+      <div class="main_carousel">
+        <div class="container_carousel">
+          <div class="carousel">
+            <div class="carousel_image">
+              <img src="img/image1.jpeg" class="carousel_img" alt="">
+            </div>
+            <div class="carousel_image">
+              <img src="img/image2.jpeg" class="carousel_img" alt="">
+            </div>
+            <div class="carousel_image">
+              <img src="img/image3.jpeg" class="carousel_img" alt="">
+            </div>
+            <div class="carousel_image">
+              <img src="img/image4.jpeg" class="carousel_img" alt="">
+            </div>
+          </div>
+          <span class="prev"><</span>
+          <span class="next">></span>
+        </div>
+        
+        <div class="thumbnails">
+          <img src="img/image1.jpeg" class="thumbnail" onclick="showImage(1)">
+          <img src="img/image2.jpeg" class="thumbnail" onclick="showImage(2)">
+          <img src="img/image3.jpeg" class="thumbnail" onclick="showImage(3)">
+          <img src="img/image4.jpeg" class="thumbnail" onclick="showImage(4)">
+        </div>
+      </div>
+
+      <div class="info_pillow">
+        <h2 class="info_pillow_h2">
+          Americans are Using this Pillow to <br />Get a Comfortable Nights Rest and <br />Wake Up Feeling Great
+        </h2>
+        <ul>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+              <path d="M524.4 0c5.8 1 9.9 5.4 14 9.8l62.2 65.3 55.9 58.4 51.3 53.7 44.3 46.4c13.6 14.2 27 28.6 40.8 42.5 9.7 9.8 9.4 31.2-.8 41.2-17.5 17.3-34.3 35.6-51.4 53.5l-57.3 59.9-49.8 52.2-47 49.1-45.2 47.5c-1.7 1.8-3.5 3.4-5 5.3-11.9 15-28.3 3.9-31.7-10.3-.7-3-.9-6.2-.9-9.3V439.9v-5.2c-8.4 0-16.5-.3-24.5.1-13.7.5-27.5 1.1-41.2 2.3a627.4 627.4 0 0 0-38.7 4.4c-13.9 2-27.8 4.3-41.6 6.9-24.1 4.5-47.8 11-71.3 19a465 465 0 0 0-95.1 44.7A411 411 0 0 0 22.6 717 372 372 0 0 0 .5 799.2c0 .3-.3.7-.4 1V782c.2-1.2.5-2.4.6-3.7 1.6-20.2 2.7-40.6 4.7-60.7 3.2-31.4 8.2-62.5 14.5-93.2A825.4 825.4 0 0 1 84.3 428c29.8-61.4 67.3-115 114.7-158.5a407 407 0 0 1 115.5-74.8 377.4 377.4 0 0 1 83.2-25.7 856 856 0 0 1 61.7-8.8c14-1.5 28.1-1.3 42.1-1.8.7 0 1.4-.2 2.3-.4v-5.1V26.8c0-8.5 2.3-15.6 8-20.5 3.3-2.8 7.6-4.1 11.5-6 .3-.3.7-.3 1.1-.3z"></path>
+            </svg>
+            Suteras™ Orthopedic Contour Pillow Perfectly Molds to Your <br />Necks Natural Shape for a Comfortable Nights Rest</li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+              <path d="M524.4 0c5.8 1 9.9 5.4 14 9.8l62.2 65.3 55.9 58.4 51.3 53.7 44.3 46.4c13.6 14.2 27 28.6 40.8 42.5 9.7 9.8 9.4 31.2-.8 41.2-17.5 17.3-34.3 35.6-51.4 53.5l-57.3 59.9-49.8 52.2-47 49.1-45.2 47.5c-1.7 1.8-3.5 3.4-5 5.3-11.9 15-28.3 3.9-31.7-10.3-.7-3-.9-6.2-.9-9.3V439.9v-5.2c-8.4 0-16.5-.3-24.5.1-13.7.5-27.5 1.1-41.2 2.3a627.4 627.4 0 0 0-38.7 4.4c-13.9 2-27.8 4.3-41.6 6.9-24.1 4.5-47.8 11-71.3 19a465 465 0 0 0-95.1 44.7A411 411 0 0 0 22.6 717 372 372 0 0 0 .5 799.2c0 .3-.3.7-.4 1V782c.2-1.2.5-2.4.6-3.7 1.6-20.2 2.7-40.6 4.7-60.7 3.2-31.4 8.2-62.5 14.5-93.2A825.4 825.4 0 0 1 84.3 428c29.8-61.4 67.3-115 114.7-158.5a407 407 0 0 1 115.5-74.8 377.4 377.4 0 0 1 83.2-25.7 856 856 0 0 1 61.7-8.8c14-1.5 28.1-1.3 42.1-1.8.7 0 1.4-.2 2.3-.4v-5.1V26.8c0-8.5 2.3-15.6 8-20.5 3.3-2.8 7.6-4.1 11.5-6 .3-.3.7-.3 1.1-.3z"></path>
+            </svg>
+            Memory Foam Technology Makes Sure Sutera™ doesn't go "Flat" <br />and Leave Your Neck Unsupported</li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+              <path d="M524.4 0c5.8 1 9.9 5.4 14 9.8l62.2 65.3 55.9 58.4 51.3 53.7 44.3 46.4c13.6 14.2 27 28.6 40.8 42.5 9.7 9.8 9.4 31.2-.8 41.2-17.5 17.3-34.3 35.6-51.4 53.5l-57.3 59.9-49.8 52.2-47 49.1-45.2 47.5c-1.7 1.8-3.5 3.4-5 5.3-11.9 15-28.3 3.9-31.7-10.3-.7-3-.9-6.2-.9-9.3V439.9v-5.2c-8.4 0-16.5-.3-24.5.1-13.7.5-27.5 1.1-41.2 2.3a627.4 627.4 0 0 0-38.7 4.4c-13.9 2-27.8 4.3-41.6 6.9-24.1 4.5-47.8 11-71.3 19a465 465 0 0 0-95.1 44.7A411 411 0 0 0 22.6 717 372 372 0 0 0 .5 799.2c0 .3-.3.7-.4 1V782c.2-1.2.5-2.4.6-3.7 1.6-20.2 2.7-40.6 4.7-60.7 3.2-31.4 8.2-62.5 14.5-93.2A825.4 825.4 0 0 1 84.3 428c29.8-61.4 67.3-115 114.7-158.5a407 407 0 0 1 115.5-74.8 377.4 377.4 0 0 1 83.2-25.7 856 856 0 0 1 61.7-8.8c14-1.5 28.1-1.3 42.1-1.8.7 0 1.4-.2 2.3-.4v-5.1V26.8c0-8.5 2.3-15.6 8-20.5 3.3-2.8 7.6-4.1 11.5-6 .3-.3.7-.3 1.1-.3z"></path>
+            </svg>
+            Can Help Reduce Pressure & Tension on Your Neck</li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+              <path d="M524.4 0c5.8 1 9.9 5.4 14 9.8l62.2 65.3 55.9 58.4 51.3 53.7 44.3 46.4c13.6 14.2 27 28.6 40.8 42.5 9.7 9.8 9.4 31.2-.8 41.2-17.5 17.3-34.3 35.6-51.4 53.5l-57.3 59.9-49.8 52.2-47 49.1-45.2 47.5c-1.7 1.8-3.5 3.4-5 5.3-11.9 15-28.3 3.9-31.7-10.3-.7-3-.9-6.2-.9-9.3V439.9v-5.2c-8.4 0-16.5-.3-24.5.1-13.7.5-27.5 1.1-41.2 2.3a627.4 627.4 0 0 0-38.7 4.4c-13.9 2-27.8 4.3-41.6 6.9-24.1 4.5-47.8 11-71.3 19a465 465 0 0 0-95.1 44.7A411 411 0 0 0 22.6 717 372 372 0 0 0 .5 799.2c0 .3-.3.7-.4 1V782c.2-1.2.5-2.4.6-3.7 1.6-20.2 2.7-40.6 4.7-60.7 3.2-31.4 8.2-62.5 14.5-93.2A825.4 825.4 0 0 1 84.3 428c29.8-61.4 67.3-115 114.7-158.5a407 407 0 0 1 115.5-74.8 377.4 377.4 0 0 1 83.2-25.7 856 856 0 0 1 61.7-8.8c14-1.5 28.1-1.3 42.1-1.8.7 0 1.4-.2 2.3-.4v-5.1V26.8c0-8.5 2.3-15.6 8-20.5 3.3-2.8 7.6-4.1 11.5-6 .3-.3.7-.3 1.1-.3z"></path>
+            </svg>
+            Works for all Back, Side & Stomach Sleepers!</li>
+        </ul>
+        
+      </div>
+    </div>
+    <div class="disccount_payment">
+      <div class="disccounts">
+
+        <div class="disccount_header">
+          <img src="" alt="">
+          <h1 class="disccounts_h1">
+            Your 55% Discount Has Been Applied
+          </h1>
+          <h2 class="disccounts_h2">
+            Your Order Qualifies For 
+            <strong>FREE SHIPPING</strong><br />
+            When Ordered TODAY.
+          </h2>
+        </div>
+
+        <div class="disccount_h3">
+          <strong>STEP 1: SELECT ORDER QUANTITY</strong>
+        </div>
+
+        <div class="disccount_radio">
+          <label for="50radio">
+            <input type="radio" id="50radio" name="radio_disccount">
+            50% OFF: 1 Sutera TM Pillow (Normally $100)
+          </label>
+          <label for="53radio">
+            <input type="radio" id="53radio" name="radio_disccount">
+            53% OFF: 2 Sutera TM Pillow (Normally $200)
+          </label>
+          <label for="55radio">
+            <input type="radio" id="55radio" name="radio_disccount">
+            55% OFF: 3 Sutera TM Pillow (Normally $300)
+          </label>
+          <label for="57radio">
+            <input type="radio" id="57radio" name="radio_disccount">
+            57% OFF: 4 Sutera TM Pillow (Normally $400)
+          </label>
+          <label for="60radio">
+            <input type="radio" id="60radio" name="radio_disccount">
+            60% OFF: 5 Sutera TM Pillow (Normally $500)
+          </label>
+        </div>
+
+      </div>
+      <div class="payment_method">
+        
+      </div>
+    </div>
+    <div class="questions">
+      <h1>FREQUENTLY ASKED QUESTIONS</h1>
+      <div class="question">
+        <h3 class="question_h3">What makes Sutera any better than my current pillow?</h3>
+        <span class="question_span">Sutera™ uses high density memory foam to contour to your necks natural shape giving you complete support. The perfect amount <br/> of neck support helps alleviate neck pains & aches, give you more energy throughout the day & get you a full nights rest</span>
+      </div>
+      <div class="question">
+        <h3 class="question_h3">What is your return policy?</h3>
+        <span class="question_span">We have a 30 day satisfaction guarantee, we want our customers happy! Please refer to our return policy at the bottom of the page <br />for more details. Happy Shopping!</span>
+      </div>
+      <div class="question">
+        <h3 class="question_h3">Where does Sutera Ship From?</h3>
+        <span class="question_span">Sutera ships directly from our warehouse in the United States! Our usual shipping time is 3-8 days.</span>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="terms">
+      <h4 class="terms_h4">
+        Terms & ConditionsPrivacy Policy / CCPAReturns
+      </h4>
+      <span class="terms_span">
+        By filling out the field, you consent for Sutera to use automated technology, including texts and <br/> prerecorded messages, to contact you at the number and email provided about Sutera offers.
+      </span>
+    </div>
+  </footer>
+  <script src="/js/index.js"></script>
+</body>
+</html>
